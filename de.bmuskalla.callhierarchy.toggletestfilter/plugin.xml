@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="de.bmuskalla.callhierarchy.toggletestfilter.ToggleTestFilterHandler"
+            id="de.bmuskalla.callhierarchy.toggletestfilter.toggle-test-filter"
+            name="Filter Test Code">
+         <state
+               class="de.bmuskalla.callhierarchy.toggletestfilter.ToggleTestFilterState"
+               id="org.eclipse.ui.commands.toggleState">
+         </state>
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="toolbar:org.eclipse.jdt.callhierarchy.view">
+         <command
+               commandId="de.bmuskalla.callhierarchy.toggletestfilter.toggle-test-filter"
+               icon="icons/test_attrib.png"
+               style="toggle">
+         </command>
+      </menuContribution>
+   </extension>
+
+</plugin>
