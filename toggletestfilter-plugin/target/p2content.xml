@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.bmuskalla.callhierarchy.toggletestfilter' version='1.0.0.201903082126' generation='2'>
+    <update id='de.bmuskalla.callhierarchy.toggletestfilter' range='[0.0.0,1.0.0.201903082126)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='Toggle-test-filter'/>
+      <property name='maven-groupId' value='de.bmuskalla.callhierarchy'/>
+      <property name='maven-artifactId' value='de.bmuskalla.callhierarchy.toggletestfilter'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.bmuskalla.callhierarchy.toggletestfilter' version='1.0.0.201903082126'/>
+      <provided namespace='osgi.bundle' name='de.bmuskalla.callhierarchy.toggletestfilter' version='1.0.0.201903082126'/>
+      <provided namespace='osgi.identity' name='de.bmuskalla.callhierarchy.toggletestfilter' version='1.0.0.201903082126'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='4'>
+      <required namespace='osgi.bundle' name='org.eclipse.jdt.ui' range='3.16.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jdt.core' range='3.16.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.bmuskalla.callhierarchy.toggletestfilter' version='1.0.0.201903082126'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.bmuskalla.callhierarchy.toggletestfilter;singleton:=true&#xA;Bundle-Version: 1.0.0.201903082126&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
