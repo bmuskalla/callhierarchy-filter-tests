@@ -1,6 +1,6 @@
 # JDT Call Hierarchy: Filter Test Code
 
-_tldr;_ Eclipse plugin to show and hide tests callers in the call hierarchy
+_tldr;_ Eclipse plugin to show and hide callers from tests in the call hierarchy
 
 Often when browsing a code base, you want to know where certain constructors/methods are used.
 JDTs call hierarchy offers great insight but easily becomes messy when you have a lot of tests using the same methods as well. Depending on your activity, the test code may or may not be relevant to look at (e.g. where is this code used in production code). JDT itself already offers a filter to ignore test
