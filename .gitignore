@@ -1,3 +1,4 @@
 target/
 bin/
 hs_err_pid*
+.DS_Store
