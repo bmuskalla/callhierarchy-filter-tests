@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/toggletestfilter.feature_1.0.0.qualifier.jar" id="toggletestfilter.feature" version="1.0.0.qualifier">
+      <category name="de.bmuskalla.callhierarchy.category"/>
+   </feature>
+   <category-def name="de.bmuskalla.callhierarchy.category" label="Call Hierarchy: Filter Tests Toggle"/>
+</site>

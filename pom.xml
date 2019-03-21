@@ -11,11 +11,19 @@
   <modules>
     <module>toggletestfilter-plugin</module>
     <module>toggletestfilter-feature</module>
+    <module>toggletestfilter-repository</module>
   </modules>
 
   <properties>
     <tycho-version>1.2.0</tycho-version>
+    <maven.deploy.skip>true</maven.deploy.skip>
   </properties>
+
+  <scm>
+    <url>https://github.com/bmuskalla/callhierarchy-filter-tests</url>
+		<connection>scm:git:git://github.com/bmuskalla/callhierarchy-filter-tests.git</connection>
+		<developerConnection>scm:git:git@github.com:bmuskalla/callhierarchy-filter-tests.git</developerConnection>
+  </scm>
 
   <repositories>
     <repository>
@@ -35,5 +43,13 @@
       </plugin>
     </plugins>
   </build>
+
+  <distributionManagement>
+  <repository>
+    <id>bintray</id>
+    <name>bintray</name>
+    <url>https://api.bintray.com/maven/bmuskalla/eclipse-toggletestfilter/release/;publish=1</url>
+  </repository>
+  </distributionManagement>
 
 </project>
