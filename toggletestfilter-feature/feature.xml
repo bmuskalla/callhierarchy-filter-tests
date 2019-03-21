@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="toggletestfilter.feature"
+      label="Call Hierarchy: Toggle Test Filter"
+      version="1.0.0.qualifier"
+      provider-name="Benjamin Muskalla">
+
+   <license url="https://www.eclipse.org/legal/epl-2.0/">
+      Eclipse Public License - v 2.0
+   </license>
+
+   <plugin
+         id="de.bmuskalla.callhierarchy.toggletestfilter"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
