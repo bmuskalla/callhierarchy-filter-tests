@@ -21,5 +21,11 @@ Use the following p2 repository
 https://dl.bintray.com/bmuskalla/eclipse-toggletestfilter/
 ```
 
+# How it works
+Which classes are considered tests is based on whether the source folder is marked as test source folder. This can be done in the `Project properties > Java Build Path`. By default, Maven projects have this configured for their `src/test/java` source folder.
+
+![Contains test sources](https://user-images.githubusercontent.com/316929/54849469-a8d07900-4ce4-11e9-9b37-83d23f509ce4.png)
+
+
 # License
 Released under the [EPL 2.0](https://www.eclipse.org/legal/epl-2.0/)
